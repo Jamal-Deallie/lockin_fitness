@@ -1,0 +1,283 @@
+@font-face{
+    src: url(./Font/Library3am-5V3Z.otf);
+    font-family: Library3AM;
+}
+
+body{
+ background-color: #F2F2F2;
+ overflow-x: hidden;
+}
+
+/**Navagation-Menu**/
+#navbar_header{
+background-color: #34445B;
+width: 100%;
+}
+
+/**Nav-Links**/
+.nav-item, .nav-link {
+ color: #F2F2F2;
+ list-style: none;
+ font-family: Library3AM;
+ font-size: 1.1rem;
+ font-weight: bold;
+
+}
+
+/**Navbar Brand**/
+.navbar .navbar-brand {
+margin-bottom: 20px;
+width: 200px;
+font-family: Library3AM;
+height: 90px;
+}
+
+
+
+/**Toggle Button**/
+#hamburger-menu{
+    position: absolute;
+    right: 0;
+    top:0;
+    margin-top: 17px;
+}
+
+/**Icons**/
+.fa-bars, .fa-times, .fa-shopping-cart, .fa-user-circle {
+    font-size: 1.4rem;
+    color: #F2F2F2;  
+    cursor: pointer; 
+}
+/**Icon Hover Effect**/
+.fa-shopping-cart:hover, 
+.fa-user-circle:hover{
+    color: #B0D1ED;
+}
+.nav-link:hover{
+    color: #B0D1ED;
+}
+
+/**Hamburger-Menu Transition**/
+#hamburger-menu .fa-times{
+    display: none;
+}
+
+#hamburger-menu .fa-times.open{
+    display: block;
+}
+
+#hamburger-menu .fa-bars.open{
+    display: none;
+}
+
+/**Jumbotron**/
+.jumbotron{
+    background-image: url(./Images/Header.svg);   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #F2F2F2;
+}
+
+#main-headline {
+    position: absolute;
+    max-width: 800px;
+    min-width: 500px;
+    font-family: Library3AM;
+    font-size: 4rem; 
+    font-weight: bold; 
+    right: 0;
+    margin-left: 30px;
+    text-shadow: #F2F2F2 1px 1px 1px;
+}
+
+.small-headline{
+    font-family: Library3AM;
+    font-size: 2.5rem; 
+    font-weight: bold;
+    max-width: 300px;
+    position: absolute;
+    right: 5%;
+}
+
+#main-lead-btn{
+    font-family: 'Noto Sans', sans-serif;
+    color:  #F2F2F2;
+    background-color: #34445B;
+    border:#F2F2F2 solid 5px;
+    border-radius: 50px;
+    width: 155px;
+    height: 3.5rem;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    position: absolute;
+    bottom:-20px;
+    margin-left: 300px;
+    box-shadow: 0px 17px 10px -10px rgba(0,0,0,0.4);
+    cursor: pointer;
+    transition: all ease-in-out 300ms;
+}
+
+#main-lead-btn:hover,
+#card_btn:hover {
+    box-shadow: 0px 37px 20px -15px rgba(0,0,0,0.2);
+    transform: translate(0px, -10px);
+}
+
+
+.display-2{
+    font-family: Library3AM;
+    font-size: 2.5rem; 
+    font-weight: bold; 
+}
+
+#join_btn{
+    color: #F2F2F2;
+    background-color: #34445B;
+    border: #F2F2F2 solid 5px;
+    border-radius: 50px;
+    padding: 5px;
+    width: 135px;
+    height: 3rem;
+}
+
+#small-btn{
+    font-family: 'Noto Sans', sans-serif;
+    color: #B0D1ED;
+    background-color: #34445B;
+    border: #F2F2F2  solid 5px;
+    border-radius: 50px;
+    width: 155px;
+    height: 3.5rem;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+
+}
+
+/**Price Card Section**/
+.rates{
+    color: #34445B;
+    font-family: Library3AM;
+    font-weight: bold;
+    text-shadow: #F2F2F2 1px 1px 1px;
+    font-size: 4rem; 
+}
+
+.card{
+    max-width: 24rem;
+    min-width: 24rem;
+    height: 28rem;
+}
+
+
+.card-header{
+    font-family: Library3AM;
+    background-color: #34445B; 
+    color: #F2F2F2;
+    font-weight: bold;
+    height: 100px;
+    line-height: 100px;
+    align-items: center;
+    font-size: 2.4rem;
+    text-shadow: black 1px 1px 1px;
+}
+
+.card-body{
+    font-family: 'Noto Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+.card-text {
+    line-height: 2rem;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+
+}
+
+#card_btn{
+    color: #34445B;;
+    background-color: #B0D1ED;
+    border: #34445B solid 5px;
+    border-radius: 25px;
+    padding: 5px;
+    width: 155px;
+    height: 3rem;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    box-shadow: 0px 17px 10px -10px rgba(0,0,0,0.4);
+    cursor: pointer;
+    transition: all ease-in-out 300ms;
+}
+
+.prices{
+    font-family: Library3AM;
+    color: #34445B; 
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+/**Footer**/
+.page-footer {
+    margin-top: 100px;
+    font-family: 'Noto Sans', sans-serif;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color:#34445B;
+    color: #F2F2F2; 
+}
+
+.first-btn{
+    position: absolute;
+    margin-left: 500px;   
+    margin-top: 110px;
+}
+
+
+.btn-newsletter{
+    color: #34445B;   
+    background-color: #B0D1ED;
+    font-family: 'Noto Sans', sans-serif;
+    border: solid #F2F2F2; 2px;
+    border-radius: 45px;
+}
+
+/**Modal**/
+.modal-header{
+    background-color: #B0D1ED;
+    font-family: Library3AM;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+.modal-title{
+    font-size: 1.8rem;  
+}
+
+.modal-footer{
+    background-color: #34445B;   
+    border: solid #F2F2F2; 2px;
+}
+
+.btn-login{
+    font-family: Library3AM; 
+    font-size: 1.8rem;
+    color: #F2F2F2;
+    font-weight: bold;
+}
+
+.label{
+  color: #34445B;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+
+
+
+
+
+
+
+
