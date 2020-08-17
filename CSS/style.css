@@ -6,6 +6,7 @@
 body{
  background-color: #F2F2F2;
  overflow-x: hidden;
+ font-family: 'Noto Sans';
 }
 
 /**Navagation-Menu**/
@@ -31,7 +32,6 @@ width: 200px;
 font-family: Library3AM;
 height: 90px;
 }
-
 
 
 /**Toggle Button**/
@@ -72,7 +72,7 @@ height: 90px;
 
 /**Jumbotron**/
 .jumbotron{
-    background-image: url(./Images/Header.svg);   
+    background-image: url(/Images/Header.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -256,11 +256,6 @@ height: 90px;
     font-size: 1.8rem;  
 }
 
-.modal-footer{
-    background-color: #34445B;   
-    border: solid #F2F2F2; 2px;
-}
-
 .btn-login{
     font-family: Library3AM; 
     font-size: 1.8rem;
@@ -271,6 +266,33 @@ height: 90px;
 .label{
   color: #34445B;
   font-family: 'Noto Sans', sans-serif;
+}
+
+.createAccount-header{
+    font-family: Library3AM;
+    font-weight: bold;
+    font-size: 1.8rem; 
+    color: #34445B;
+}
+
+.btn_login{
+    color: #F2F2F2;
+    background-color: #34445B;
+    border: #B0D1ED solid 5px;
+    border-radius: 50px;
+    padding: 5px;
+    width: 135px;
+    height: 3rem;
+}
+
+#modalLoginForm{
+    font-family: 'Noto Sans';
+    text-transform: uppercase;
+}
+
+.fa-envelope-square, .fa-user{
+    font-size: 1.4rem;
+    color: #34445B; 
 }
 
 
