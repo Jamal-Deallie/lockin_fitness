@@ -28,13 +28,13 @@
   <!--Collapsed Nav-Links-->
   <div class="collapse navbar-collapse mx-4" id="hamburger_menu">
     <ul class="navbar-nav mx-auto mt-3">
-      <li class="nav-item active mx-3">
-          <a class="nav-link" href="#">Home
+      <li class="nav-item mx-3">
+          <a class="nav-link" href="index.html">Home
               <span class="sr-only">(current)</span>
             </a>
           </li>
-      <li class="nav-item mx-3">
-        <a class="nav-link text-nowrap" href="our_facility.html">Our Facility</a>
+      <li class="nav-item mx-3 active">
+        <a class="nav-link text-nowrap" href="#">Our Facility</a>
       </li>
       <li class="nav-item mx-3">
         <a class="nav-link text-nowrap" href="#">Personal Trainers</a>
@@ -68,88 +68,97 @@
 </nav>
 <!--Navbar -->
 
-<!--JumboTron-->
-  <div class="jumbotron">
-      <p class="display-3 d-none d-md-block mr-4" id="main-headline">Lock Into Your Fitness Goals For Results<button type="button" class="btn d-none d-md-block first-btn" id="main-lead-btn"><a>Join Now</a></button></p>
-      
-      <p class="display-3 text-center d-md-none small-headline">Lock Into Your Fitness Goals<br><button type="button" class="btn mt-3 mb-5 d-md-none small-btn" id="small-btn"> Join Now</a></button></p>
-      <div class="lead">
-          <img src="/Images/Kettlebell.png" alt="Model Performing Kettlebell Deadlift" class="img-fluid mt-3 ml-sm-5">
+<h1 class="rates text-center my-5">Our Facility</h1>
+<!--Carousel Wrapper-->
+<div id="carousel-example-2" class="carousel slide carousel-fade mx-auto container-fluid" mdata-ride="carousel">
+    <!--Indicators-->
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example-2" data-slide-to="1"></li>
+      <li data-target="#carousel-example-2" data-slide-to="2"></li>
+    </ol>
+    <!--/.Indicators-->
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+      <div class="carousel-item active">
+        <div class="view">
+          <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg"
+            alt="First slide">
+          <div class="mask rgba-black-light"></div>
+        </div>
+        <div class="carousel-caption">
+          <h3 class="h3-responsive">Light mask</h3>
+          <p>First text</p>
+        </div>
       </div>
-      <div class="text-center">
-          
+      <div class="carousel-item">
+        <!--Mask color-->
+        <div class="view">
+          <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(6).jpg"
+            alt="Second slide">
+          <div class="mask rgba-black-strong"></div>
+        </div>
+        <div class="carousel-caption">
+          <h3 class="h3-responsive">Strong mask</h3>
+          <p>Secondary text</p>
+        </div>
       </div>
+      <div class="carousel-item">
+        <!--Mask color-->
+        <div class="view">
+          <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg"
+            alt="Third slide">
+          <div class="mask rgba-black-slight"></div>
+        </div>
+        <div class="carousel-caption">
+          <h3 class="h3-responsive">Slight mask</h3>
+          <p>Third text</p>
+        </div>
+      </div>
+    </div>
+    <!--/.Slides-->
+    <!--Controls-->
+    <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    <!--/.Controls-->
   </div>
+  <!--/.Carousel Wrapper-->
+  <div class="carousel_paragraph_container">
+    <p class="carousel_paragraph mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis laborum dolorem mollitia, hic repudiandae recusandae beatae harum aliquam dolorum adipisci fugit, cumque, rerum exercitationem velit dicta et repellat quaerat quam nemo facere ab incidunt perferendis. Iure laborum incidunt natus, consectetur sint molestias id, et commodi nemo blanditiis officiis, laboriosam dolor architecto. Corporis soluta atque modi eos! Nobis repellat reiciendis iure culpa impedit dicta? Porro, repellendus dolorum dicta tenetur molestias accusantium, culpa reprehenderit possimus pariatur quibusdam, dolore labore nemo non error ipsam aspernatur beatae ea? Voluptatem maiores voluptates deleniti, laboriosam inventore eius, nemo praesentium consequuntur ducimus repudiandae atque similique nulla doloremque.</p>
+  </div>
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h2 class="text-center amenities_header">Our Amenities</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-3">
+            <img src="./Images/" alt="">
+            <h3 class="secondary_header">Boxing Studio</h3>
+        </div>
+        <div class="col-3">
+            <i class="fas fa-swimming-pool"></i>
+            <h3 class="secondary_header">Indoor Pool</h3>
+        </div>
+        <div class="col-3">
+            <i class="fas fa-basketball-ball"></i>
+            <h3 class="secondary_header">Basketball Court</h3>
+        </div>
+        <div class="col-3">
+            <h3 class="secondary_header">Daycare Center</h3>
+        </div>
+    </div>
 </div>
-<!--Price Cards-->
-<section class = "mx-auto">
-  <h1 class="rates text-center mb-5" data-aos="fade-up">Rates</h1>
-  <div class="card-group justify-content-center">
+  
 
-    <!--Daily Price Card-->
-    <div class="shadow card mx-auto mx-md-2 mt-2" data-aos="fade-right">
-      <h2 class="card-header text-center align-items-center">DAILY</h2>
-      <div class="card-body text-center">
-        <p class="card-paragraoh">
-            <span class="card-text">Complimentary Tour</span>
-            <br>
-            <span class="card-text">One Fitness Class Pass</span>
-            <br>
-            <span class="card-text">Access to Lockers & Sauna</span>
-            <br>
-            <span class="card-text">Free Water Bottle</span>
-        </p>
-        <div>
-            <a name="" id="card_btn" class="btn mt-5 mb-4" href="#" role="button">Sign Up</a>
-            <br>
-            <span class="prices text-center">$14.99</span>
-        </div>
-      </div>
-    </div>
-
-    <!--Monthly Price Card-->
-    <div class="shadow card mx-auto mx-md-2 mt-2">
-      <h2 class="card-header text-center align-items-center">MONTHLY</h2>
-      <div class="card-body text-center">
-        <p class="card-paragraoh">
-          <span class="card-text">Unlimited Fitness Classes</span>
-          <br>
-          <span class="card-text">One Complimentary Guest Passes</span>
-          <br>
-          <span class="card-text">One Personal Training Sessions</span>
-          <br>
-          <span class="card-text">Free Diet Consultation</span>
-      </p>
-      <div class="div">
-          <a name="" id="card_btn" class="btn mt-5 mb-4" href="#" role="button">Sign Up</a>
-          <br>
-          <span class="prices text-center">$29.99</span>
-        </div>
-      </div>
-    </div>
-
-    <!--Annual Price Card-->
-    <div class="shadow card mx-auto mx-md-2 mt-2" data-aos="fade-left">
-      <h2 class="card-header text-center align-items-center">ANNUALLY</h2>
-      <div class="card-body text-center">
-        <p class="card-paragraoh">
-          <span class="card-text">Unlimited Fitness Classes</span>
-          <br>
-          <span class="card-text">Four Complimentary Guest Passes</span>
-          <br>
-          <span class="card-text">Two Personal Training Sessions</span>
-          <br>
-          <span class="card-text">Free Diet Consultation</span>
-        </p>
-        <div class="div">
-            <a name="" id="card_btn" class="btn mt-5 mb-4" href="#" role="button">Sign Up</a>
-            <br>
-            <span class="prices text-center">$299.99</span>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
 
 <!-- Footer -->
 <footer class="page-footer pt-4">

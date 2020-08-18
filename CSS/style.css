@@ -22,6 +22,8 @@ width: 100%;
  font-family: Library3AM;
  font-size: 1.1rem;
  font-weight: bold;
+ transition: 0.3s;
+ display: inline-block;
 
 }
 
@@ -40,6 +42,7 @@ height: 90px;
     right: 0;
     top:0;
     margin-top: 17px;
+    transition: 0.3s;
 }
 
 /**Icons**/
@@ -245,6 +248,20 @@ height: 90px;
     border-radius: 45px;
 }
 
+.footer-weblink{
+    color: #F2F2F2;  
+    
+}
+
+.fa-phone-volume, .fa-clock, .fa-map-marked-alt{
+ color: #B0D1ED;  
+ font-size: 1.8rem;
+ text-shadow: #B0D1ED 1px 1px 2px;
+ display: inline-block;
+ 
+  
+}
+
 /**Modal**/
 .modal-header{
     background-color: #B0D1ED;
@@ -295,10 +312,58 @@ height: 90px;
     color: #34445B; 
 }
 
+/**Our Facility**/
+.carousel_paragraph_container{
+    background-color: #34445B;
+    font-size: 1rem;
+    color: #F2F2F2;
+    height: 600px;
+    margin-top: -250px;
+    margin-bottom: 100px;
+    padding-top: 300px;
+    text-align: center;
+    line-height: 350x;
+    padding: 350px, 50px 0 50px;
+}
 
+#carousel-example-2{
+  max-width: 1200px;
+  max-height: 700px;
+} 
 
+.carousel_paragraph{
+    max-width: 1000px;
+}
 
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+  }
 
+  .amenities_header{
+    color: #34445B;
+    font-family: Library3AM;
+    font-weight: bold;
+    text-shadow: #F2F2F2 1px 1px 1px;
+    color: #34445B;
+    font-family: Library3AM;
+    font-weight: bold;
+    text-shadow: #F2F2F2 1px 1px 1px;
+    font-size: 3rem;   
+  }
+
+  .secondary_header{
+    color: #34445B;
+    font-family: Library3AM;
+    font-weight: bold;
+    text-shadow: #F2F2F2 1px 1px 1px;
+    color: #34445B;
+    font-family: Library3AM;
+    font-weight: bold;
+    text-shadow: #F2F2F2 1px 1px 1px;
+    font-size: 1.3rem;    
+  }
 
 
 
