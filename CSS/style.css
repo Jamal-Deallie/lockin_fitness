@@ -382,12 +382,33 @@ height: 90px;
   margin-left: -130px;
   }
 
-  .secondPersonalTrainer {
-    margin-top: 120px; 
-  }
+  
 
   .secondaryPersonalTrainers{
-      height: 800px;
+      min-height: 600px;
+      max-height: 2200px;
       width: 100%;
       background-color: #34445B;
+      margin-top: 200px;
+      margin-bottom: 300px;
+  }
+
+  .secondPersonalTrainer{
+      margin-top: 100px;
+  }
+
+  .instructorHeading{
+    padding-top: 20px;
+    font-family: Library3AM;
+    font-size: 3.2rem; 
+    font-weight: bold; 
+    color: #F2F2F2;
+  }
+
+  .instructors{
+      padding: 0 100px;
+  }
+
+  .personalTrainers{
+     max-width: 1000px; 
   }
