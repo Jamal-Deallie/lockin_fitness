@@ -409,57 +409,93 @@ footer{
     margin-left: -190px;
   }
 
-#squatPic{
-    background-image: url(/Images/Squat.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    object-fit: cover;
-
-    height: 900px;
-    width: 1000px;
-}
-
-#workoutPic{
-    width: 600px;
-    height: 400px;
-    object-fit: cover;
-      
-}
-
-#deadlift{
-position: relative;
-height: 600px;
-width: 600px;
-display: inline-block;
-}
-
-#deadliftPic{  
-height: 600px;
-display: block;
-
-
-} 
-
-.overlay{
+  .workoutContainer {
+    position: relative;
+    width: auto;
+  }
+  
+  .workoutPic {
+    display: block;
+    min-width: 550px;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    min-height: 550px;
+  }
+  
+  .overlay {
     position: absolute;
-    transition: all .3s ease;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 550px;
+    width: 550px;
     opacity: 0;
-    background: #eee;
+    transition: .3s ease;
+    background-color: rgba(52, 68, 91, .7)
+    
+  }
+  
+  .workoutContainer:hover .overlay {
+    opacity: 1;
+  }
+  
+  .workoutText {
+    font-family: Library3AM; 
+    font-weight: bold; 
+    color: #F2F2F2;
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .shopNavbar{
+    margin-top: 50px;
+    background-color:#B0D1ED;
+  }
+  .shopLinks{
+    font-weight: bold; 
+    color: #34445B;
+    font-size: 1.2rem;
+    margin: 15px 20px;
+    font-family: 'Noto Sans', sans-serif;
+    text-transform: uppercase;
+    
 
-}
+  }
 
-.overlayText{
+  .shopHeader{
+  
+       
+    }
 
-}
+    .accordion{
+    background-color:#B0D1ED;   
+    }
 
+    #accordionLink{
+        height: 90px;
+        color: #34445B;
+        font-family: Library3AM;
+        font-weight: bold;
+        text-shadow: #F2F2F2 1px 1px 1px;
+        font-size: 2.3rem;
+        text-decoration: none;
+    }
 
-#yogaPic{
-    background-image: url(/Images/grzegorz-rakowski-kBLoTODh3TI-unsplash.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 800px;
-    width: 500px;
-}
+    .shoppingContent{
+        margin-top: 80px;
+    }
 
+    .shopHeadings {
+        color: #34445B;
+        ffont-family: 'Noto Sans', sans-serif;
+        font-weight: bold;
+        text-shadow: #F2F2F2 1px 1px 1px;
+        font-size: 1.5rem;
+        text-decoration: none;
+        list-style: none;
+        text-transform: uppercase;
+    }
