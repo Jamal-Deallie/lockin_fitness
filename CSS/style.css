@@ -228,6 +228,9 @@ height: 90px;
 }
 
 /**Footer**/
+footer{
+    position: relative;
+}
 .page-footer {
     margin-top: 100px;
     font-family: 'Noto Sans', sans-serif;
@@ -374,17 +377,10 @@ height: 90px;
     color: #34445B;  
   }
 .pt-Header {
-  padding: 60px 0;
+  padding: 90px 0;
 }
-  .firstPersonalTrainer{
-  position: absolute;
-  left: 0;
-  margin-left: -130px;
-  }
 
-  
-
-  .secondaryPersonalTrainers{
+.instructorsSection{
       min-height: 600px;
       max-height: 2200px;
       width: 100%;
@@ -393,22 +389,77 @@ height: 90px;
       margin-bottom: 300px;
   }
 
-  .secondPersonalTrainer{
-      margin-top: 100px;
-  }
-
-  .instructorHeading{
-    padding-top: 20px;
+.instructorHeading{
+    padding-top: 50px;
     font-family: Library3AM;
     font-size: 3.2rem; 
     font-weight: bold; 
     color: #F2F2F2;
   }
 
-  .instructors{
-      padding: 0 100px;
+  #Personal_Trainer-Row{
+      margin-top: 150px;
   }
 
-  .personalTrainers{
+.personalTrainers{
      max-width: 1000px; 
   }
+
+  #Personal_Trainer-1, #Personal_Trainer-3, #Personal_Trainer-5{
+    margin-left: -190px;
+  }
+
+#squatPic{
+    background-image: url(/Images/Squat.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+
+    height: 900px;
+    width: 1000px;
+}
+
+#workoutPic{
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+      
+}
+
+#deadlift{
+position: relative;
+height: 600px;
+width: 600px;
+display: inline-block;
+}
+
+#deadliftPic{  
+height: 600px;
+display: block;
+
+
+} 
+
+.overlay{
+    position: absolute;
+    transition: all .3s ease;
+    opacity: 0;
+    background: #eee;
+
+}
+
+.overlayText{
+
+}
+
+
+#yogaPic{
+    background-image: url(/Images/grzegorz-rakowski-kBLoTODh3TI-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    width: 500px;
+}
+
