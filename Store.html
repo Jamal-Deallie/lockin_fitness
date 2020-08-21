@@ -14,7 +14,7 @@
 
     <link rel="stylesheet" href="./CSS/style.css">
 </head>
-<body>
+<body class="shoppingsection">
 
   <!--Navbar -->
 <nav class=" navbar navbar-expand-xl" id="navbar_header">
@@ -24,7 +24,7 @@
       <i class="fas fa-times toggle"></i>
   </button>
   <!--Navbar Logo-->
-  <a href="#index.html" class="navbar-brand"><img src="Images/lock _main.png" alt="" style="height: 100px; "></a>
+  <a href="#index.html" class="navbar-brand"><img src="./Images/lock _main.png" alt="" style="height: 100px; "></a>
   <!--Collapsed Nav-Links-->
   <div class="collapse navbar-collapse mx-4" id="hamburger_menu">
     <ul class="navbar-nav mx-auto mt-3">
@@ -62,11 +62,13 @@
     </ul>
   </div>
 </nav>
+<div class="jumbotron-store">
+ <h1 class="rates text-center shopHeader">Shop Now</h1>
+</div>
+
 <!--Navbar -->
 <div class="d-none d-xl-block">
-    <h1 class="rates text-center shopHeader">Store</h1>
-
-    <nav class="navbar navbar-expand shopNavbar justify-content-center">
+  <nav class="navbar navbar-expand shopNavbar justify-content-center">
         <ul class="navbar-nav mx-auto">
             <li class="nav-item">
                 <a class="nav-links shopLinks" href="#">Home<span class="sr-only">(current)</span></a>
@@ -86,7 +88,7 @@
         </ul>
         <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-1" type="text" placeholder="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            <button class="btn btn-outline my-2 my-sm-0" type="submit">Search</button>
         </form>
     </nav>
 </div>
@@ -124,13 +126,16 @@
     </div>
 
   </div>
+ 
+<div class="block"></div>
 
 <div class="container shoppingContent">
   <div class="row">
-    <div class="col">
-      <a href="" class="list-unstyled text-decoration-none"><h3 class="shopHeadings text-center pb-4">Workout Accessories</h3></a> 
+    <div class="col-6 ml-auto"></div>
+    <div class="col-6">
+      <a href="" class="list-unstyled text-decoration-none"><h3 class="rates text-center pb-4">Workout Accessories</h3></a> 
       <div class="workoutContainer">
-        <img src="Images/Accesories.png" class="workoutPic mx-auto img-fluid">
+        <img src="./Images/Accesories.png" class="workoutPic mx-auto img-fluid">
         <div class="overlay mx-auto d-lg-block d-none">
           <div class="workoutText"> <a href="#">Workout Accessories</a></div>
         </div>
@@ -138,37 +143,40 @@
     </div>
   </div>
   <div class="row">
-    <div class="col">
-      <a href="" class="list-unstyled text-decoration-none"><h3 class="shopHeadings d-block d-md-none text-center pb-4">Men's Gear</h3></a> 
+    <div class="co-6l" data-aos="fade-left">
+      <a href="" class="list-unstyled text-decoration-none"><h3 class="shopHeadings text-center pb-4">Men's Gear</h3></a> 
       <div class="workoutContainer">
-        <img src="Images/Mens_Gear.png" class="workoutPic mx-auto img-fluid">
+        <img src="./Images/Mens_Gear.png" class="workoutPic mx-auto img-fluid">
         <div class="overlay mx-auto d-lg-block d-none">
           <div class="workoutText"> <a href="#">Men's Gear</a></div>
         </div>
+        <div class="col-6"></div>
       </div> 
     </div>
   </div>
   <div class="row">
-    <div class="col">
-      <a href="" class="list-unstyled text-decoration-none"><h3 class="shopHeadings d-block d-md-none text-center pb-4">Womens's Gear</h3></a> 
+    <div class="col-6"></div>
+    <div class="col-6" data-aos="fade-right">
+      <a href="" class="list-unstyled text-decoration-none"><h3 class="shopHeadings text-center pb-4">Womens' Gear</h3></a> 
       <div class="workoutContainer">
-        <img src="Images/Womens_Gear.png" class="workoutPic mx-auto img-fluid">
+        <img src="./Images/Womens_Gear.png" class="workoutPic mx-auto img-fluid">
         <div class="overlay mx-auto d-lg-block d-none">
-          <div class="workoutText"> <a href="#">Womens's Gear</a></div>
+          <div class="workoutText"> <a href="#">Womens' Gear</a></div>
         </div>
       </div> 
     </div>
   </div>
   <div class="row">
-    <div class="col">
-      <a href="" class="list-unstyled text-decoration-none"><h3 class="shopHeadings d-block d-md-none text-center pb-4">Supplements</h3></a> 
+    <div class="col-6" data-aos="fade-left">
+      <a href="" class="list-unstyled text-decoration-none"><h3 class="shopHeadings text-center pb-4">Supplements</h3></a> 
       <div class="workoutContainer">
-        <img src="Images/Supplements.png" class="workoutPic mx-auto img-fluid">
+        <img src="./Images/Supplements.png" class="supplements mx-auto img-fluid">
         <div class="overlay mx-auto d-lg-block d-none">
           <div class="workoutText"> <a href="#">Supplements</a></div>
         </div>
       </div> 
     </div>
+    <div class="col-6"></div>
   </div>
 </div>
 

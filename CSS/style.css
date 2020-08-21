@@ -1,8 +1,13 @@
-@font-face{
-    src: url(./Font/Library3am-5V3Z.otf);
-    font-family: Library3AM;
-}
-
+@font-face {
+    font-family: 'Library3AM';
+    src: url(/Font/a5421f5aa8dda33abf9b56a9366cab4e.eot); /* IE9 Compat Modes */
+    src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url(/Font/a5421f5aa8dda33abf9b56a9366cab4e.woff2) format('woff2'), /* Super Modern Browsers */
+         url(/Font/a5421f5aa8dda33abf9b56a9366cab4e.woff) format('woff'), /* Pretty Modern Browsers */
+         url(/Font/a5421f5aa8dda33abf9b56a9366cab4e.ttf)  format('truetype'), /* Safari, Android, iOS */
+         url(/Font/a5421f5aa8dda33abf9b56a9366cab4e.svg) format('svg'); /* Legacy iOS */
+         
+  }
 body{
  background-color: #F2F2F2;
  overflow-x: hidden;
@@ -20,7 +25,7 @@ width: 100%;
  color: #F2F2F2;
  list-style: none;
  font-family: Library3AM;
- font-size: 1.1rem;
+ font-size: 1.6rem;
  font-weight: bold;
  transition: 0.3s;
  display: inline-block;
@@ -28,16 +33,17 @@ width: 100%;
 }
 
 /**Navbar Brand**/
-.navbar .navbar-brand {
+.navbar .navbar-brand{
 margin-bottom: 20px;
 width: 200px;
 font-family: Library3AM;
-height: 90px;
+height: 100px;
 }
 
 .navbar-brand{
-  height: 175x;
-  width: 175px;
+  height: 300px;
+  padding-left: 20px;
+  
 }
 
 
@@ -380,6 +386,18 @@ footer{
   padding: 90px 0;
 }
 
+.boxingstudio{
+    margin-bottom: 25px;
+}
+
+.indoorpool{
+    margin-bottom: 25px;
+}
+
+.basketballcourt{
+    margin-bottom: 25px;
+}
+
 .instructorsSection{
       min-height: 600px;
       max-height: 2200px;
@@ -409,6 +427,17 @@ footer{
     margin-left: -190px;
   }
 
+  .ptname{
+      color: #34445B;
+      font-family: Library3AM;
+      font-weight: bold;
+      font-size: 3rem;
+      text-shadow: #F2F2F2 1px 1px 1px;
+      margin-bottom: 80px;
+      margin-top: 20px
+
+  }
+
   .workoutContainer {
     position: relative;
     width: auto;
@@ -418,7 +447,15 @@ footer{
     display: block;
     min-width: 550px;
     margin-top: 50px;
-    margin-bottom: 150px;
+    margin-bottom: 400px;
+    min-height: 550px;
+  }
+
+  .supplements {
+    display: block;
+    min-width: 550px;
+    margin-top: 50px;
+    margin-bottom: 200px;
     min-height: 550px;
   }
   
@@ -452,8 +489,8 @@ footer{
     text-align: center;
   }
   .shopNavbar{
-    margin-top: 50px;
-    background-color:#B0D1ED;
+   border: solid #34445B ;
+   background-color: #B0D1ED;   
   }
   .shopLinks{
     font-weight: bold; 
@@ -462,13 +499,16 @@ footer{
     margin: 15px 20px;
     font-family: 'Noto Sans', sans-serif;
     text-transform: uppercase;
-    
-
   }
 
   .shopHeader{
-  
-       
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    color: #F2F2F2;
+    text-shadow: #F2F2F2; 1px 1px 2px;
     }
 
     .accordion{
@@ -491,11 +531,31 @@ footer{
 
     .shopHeadings {
         color: #34445B;
-        ffont-family: 'Noto Sans', sans-serif;
         font-weight: bold;
         text-shadow: #F2F2F2 1px 1px 1px;
-        font-size: 1.5rem;
         text-decoration: none;
         list-style: none;
         text-transform: uppercase;
+        font-family: Library3AM;
+        font-size: 4rem; 
     }
+
+    .jumbotron-store{
+        background-image: url(/Images/store_jumbotron.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+        height: 500px;
+    }
+
+
+
+
+
+    .btn-outline{
+        border: solid #34445B;
+       
+    }
+
+
