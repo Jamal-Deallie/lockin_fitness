@@ -1,16 +1,16 @@
 @font-face {
-    font-family: 'Library3AM';
-    src: url(/Font/a5421f5aa8dda33abf9b56a9366cab4e.eot); /* IE9 Compat Modes */
-    src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url(/Font/a5421f5aa8dda33abf9b56a9366cab4e.woff2) format('woff2'), /* Super Modern Browsers */
+    font-family: 'LIBRARY 3 AM';
+    src: url(/Font/a5421f5aa8dda33abf9b56a9366cab4e.eot)  format('eot'),/*IE9 Compat Modes */
+    src: url(/Font/a5421f5aa8dda33abf9b56a9366cab4e.woff2) format('woff2'), /* Super Modern Browsers */
          url(/Font/a5421f5aa8dda33abf9b56a9366cab4e.woff) format('woff'), /* Pretty Modern Browsers */
          url(/Font/a5421f5aa8dda33abf9b56a9366cab4e.ttf)  format('truetype'), /* Safari, Android, iOS */
          url(/Font/a5421f5aa8dda33abf9b56a9366cab4e.svg) format('svg'); /* Legacy iOS */
-         
-  }
+}
+
+@import url(//db.onlinewebfonts.com/c/4982218213f6f309d9b5e6218dd7d853?family=LIBRARY+3+AM);
+
 body{
  background-color: #F2F2F2;
- overflow-x: hidden;
  font-family: 'Noto Sans';
 }
 
@@ -24,7 +24,7 @@ width: 100%;
 .nav-item, .nav-link {
  color: #F2F2F2;
  list-style: none;
- font-family: Library3AM;
+ font-family: 'LIBRARY 3 AM';
  font-size: 1.6rem;
  font-weight: bold;
  transition: 0.3s;
@@ -36,7 +36,7 @@ width: 100%;
 .navbar .navbar-brand{
 margin-bottom: 20px;
 width: 200px;
-font-family: Library3AM;
+font-family: 'LIBRARY 3 AM';
 height: 100px;
 }
 
@@ -86,7 +86,7 @@ height: 100px;
 
 /**Jumbotron**/
 .jumbotron{
-    background-image: url(/Images/Header.svg);
+    background-image: url(/Images/wave.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -97,7 +97,7 @@ height: 100px;
     position: absolute;
     max-width: 800px;
     min-width: 500px;
-    font-family: Library3AM;
+    font-family: 'LIBRARY 3 AM';
     font-size: 4rem; 
     font-weight: bold; 
     right: 0;
@@ -106,7 +106,7 @@ height: 100px;
 }
 
 .small-headline{
-    font-family: Library3AM;
+    font-family: 'LIBRARY 3 AM';
     font-size: 2.5rem; 
     font-weight: bold;
     max-width: 300px;
@@ -141,7 +141,7 @@ height: 100px;
 
 
 .display-2{
-    font-family: Library3AM;
+    font-family: 'LIBRARY 3 AM'
     font-size: 2.5rem; 
     font-weight: bold; 
 }
@@ -173,7 +173,7 @@ height: 100px;
 /**Price Card Section**/
 .rates{
     color: #34445B;
-    font-family: Library3AM;
+    font-family: 'LIBRARY 3 AM';
     font-weight: bold;
     text-shadow: #F2F2F2 1px 1px 1px;
     font-size: 4rem; 
@@ -187,7 +187,7 @@ height: 100px;
 
 
 .card-header{
-    font-family: Library3AM;
+    font-family: 'LIBRARY 3 AM';
     background-color: #34445B; 
     color: #F2F2F2;
     font-weight: bold;
@@ -227,7 +227,7 @@ height: 100px;
 }
 
 .prices{
-    font-family: Library3AM;
+    font-family: 'LIBRARY 3 AM';
     color: #34445B; 
     font-size: 1.6rem;
     font-weight: bold;
@@ -279,7 +279,7 @@ footer{
 /**Modal**/
 .modal-header{
     background-color: #B0D1ED;
-    font-family: Library3AM;
+    font-family: 'LIBRARY 3 AM';
     font-weight: bold;
     font-size: 1.8rem;
 }
@@ -288,7 +288,7 @@ footer{
 }
 
 .btn-login{
-    font-family: Library3AM; 
+    font-family: 'LIBRARY 3 AM' 
     font-size: 1.8rem;
     color: #F2F2F2;
     font-weight: bold;
@@ -300,7 +300,7 @@ footer{
 }
 
 .createAccount-header{
-    font-family: Library3AM;
+    font-family: 'LIBRARY 3 AM'
     font-weight: bold;
     font-size: 1.8rem; 
     color: #34445B;
@@ -331,9 +331,9 @@ footer{
     background-color: #34445B;
     font-size: 1rem;
     color: #F2F2F2;
-    height: 600px;
-    margin-top: -250px;
-    margin-bottom: 100px;
+    height: 800px;
+    margin-top: -300px;
+    margin-bottom: 200px;
     padding-top: 300px;
     text-align: center;
     line-height: 350x;
@@ -347,6 +347,7 @@ footer{
 
 .carousel_paragraph{
     max-width: 1000px;
+    margin-top: 115px;
 }
 
 .carousel-indicators li {
@@ -355,31 +356,29 @@ footer{
     border-radius: 100%;
   }
 
+  /**Amenities**/
   .amenities_header{
     color: #34445B;
-    font-family: Library3AM;
+    font-family: 'LIBRARY 3 AM';
     font-weight: bold;
     text-shadow: #F2F2F2 1px 1px 1px;
     color: #34445B;
-    font-family: Library3AM;
-    font-weight: bold;
-    text-shadow: #F2F2F2 1px 1px 1px;
     font-size: 3rem;   
   }
 
-  .secondary_header{
+.secondary_header{
     color: #34445B;
-    font-family: Library3AM;
+    font-family: 'LIBRARY 3 AM'
     font-weight: bold;
     text-shadow: #F2F2F2 1px 1px 1px;
     color: #34445B;
-    font-family: Library3AM;
+    font-family: 'LIBRARY 3 AM';
     font-weight: bold;
     text-shadow: #F2F2F2 1px 1px 1px;
     font-size: 1.3rem;    
   }
 
-  .amenities{
+.amenities{
     color: #34445B;  
   }
 .pt-Header {
@@ -397,25 +396,8 @@ footer{
 .basketballcourt{
     margin-bottom: 25px;
 }
-
-.instructorsSection{
-      min-height: 600px;
-      max-height: 2200px;
-      width: 100%;
-      background-color: #34445B;
-      margin-top: 200px;
-      margin-bottom: 300px;
-  }
-
-.instructorHeading{
-    padding-top: 50px;
-    font-family: Library3AM;
-    font-size: 3.2rem; 
-    font-weight: bold; 
-    color: #F2F2F2;
-  }
-
-  #Personal_Trainer-Row{
+  /**Personal Trainer Section**/
+#Personal_Trainer-Row{
       margin-top: 150px;
   }
 
@@ -429,14 +411,51 @@ footer{
 
   .ptname{
       color: #34445B;
-      font-family: Library3AM;
+      font-family: 'LIBRARY 3 AM';
       font-weight: bold;
       font-size: 3rem;
       text-shadow: #F2F2F2 1px 1px 1px;
       margin-bottom: 80px;
       margin-top: 20px
-
   }
+  .instructorsSection{
+    min-height: 600px;
+    max-height: 2200px;
+    width: 100%;
+    background-color: #34445B;
+    margin-top: 200px;
+    margin-bottom: 300px;
+}
+
+.instructorHeading{
+  padding-top: 50px;
+  font-family: 'LIBRARY 3 AM';
+  font-size: 3.2rem; 
+  font-weight: bold; 
+  color: #F2F2F2;
+}
+
+.instructorname{
+    position: absolute;
+    padding-top: 170px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-70%, -50%);
+    font-family: 'LIBRARY 3 AM';
+    font-weight: bold;
+    font-size: 1.6rem;
+    color: #F2F2F2;
+}
+
+.instructordescrip{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-70%, -50%);
+    padding-bottom: 160px;
+    color: #F2F2F2;
+    margin-left: 20px;
+}
 
   .workoutContainer {
     position: relative;
@@ -446,7 +465,6 @@ footer{
   .workoutPic {
     display: block;
     min-width: 550px;
-    margin-top: 50px;
     margin-bottom: 400px;
     min-height: 550px;
   }
@@ -454,7 +472,6 @@ footer{
   .supplements {
     display: block;
     min-width: 550px;
-    margin-top: 50px;
     margin-bottom: 200px;
     min-height: 550px;
   }
@@ -478,7 +495,7 @@ footer{
   }
   
   .workoutText {
-    font-family: Library3AM; 
+    font-family: 'LIBRARY 3 AM'; 
     font-weight: bold; 
     color: #F2F2F2;
     font-size: 2rem;
@@ -499,6 +516,7 @@ footer{
     margin: 15px 20px;
     font-family: 'Noto Sans', sans-serif;
     text-transform: uppercase;
+    text-decoration: none;
   }
 
   .shopHeader{
@@ -518,7 +536,7 @@ footer{
     #accordionLink{
         height: 90px;
         color: #34445B;
-        font-family: Library3AM;
+        font-family: 'LIBRARY 3 AM';
         font-weight: bold;
         text-shadow: #F2F2F2 1px 1px 1px;
         font-size: 2.3rem;
@@ -526,7 +544,7 @@ footer{
     }
 
     .shoppingContent{
-        margin-top: 80px;
+        margin-top: 300px;
     }
 
     .shopHeadings {
@@ -536,7 +554,7 @@ footer{
         text-decoration: none;
         list-style: none;
         text-transform: uppercase;
-        font-family: Library3AM;
+        font-family: 'LIBRARY 3 AM';
         font-size: 4rem; 
     }
 
@@ -547,6 +565,31 @@ footer{
         background-position: center;
         position: relative;
         height: 500px;
+    }
+
+    .block1{
+        background-color: #B0D1ED;
+        max-height: 700px;
+    }
+
+    .accessoriesheader{
+        color: #34445B;
+        font-weight: bold;
+        text-shadow: #F2F2F2 1px 1px 1px;
+        text-decoration: none;
+        list-style: none;
+        text-transform: uppercase;
+        font-family: 'Library3AM';
+        font-size: 4rem;   
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+
+    
+
     }
 
 
