@@ -1,96 +1,110 @@
 @font-face {
     font-family: 'LIBRARY 3 AM';
-    src: url(/Font/a5421f5aa8dda33abf9b56a9366cab4e.eot)  format('eot'),/*IE9 Compat Modes */
-    src: url(/Font/a5421f5aa8dda33abf9b56a9366cab4e.woff2) format('woff2'), /* Super Modern Browsers */
-         url(/Font/a5421f5aa8dda33abf9b56a9366cab4e.woff) format('woff'), /* Pretty Modern Browsers */
-         url(/Font/a5421f5aa8dda33abf9b56a9366cab4e.ttf)  format('truetype'), /* Safari, Android, iOS */
-         url(/Font/a5421f5aa8dda33abf9b56a9366cab4e.svg) format('svg'); /* Legacy iOS */
+    src: url(/Font/a5421f5aa8dda33abf9b56a9366cab4e.eot) format('eot'),
+        /*IE9 Compat Modes */
+        src: url(/Font/a5421f5aa8dda33abf9b56a9366cab4e.woff2) format('woff2'),
+        /* Super Modern Browsers */
+        url(/Font/a5421f5aa8dda33abf9b56a9366cab4e.woff) format('woff'),
+        /* Pretty Modern Browsers */
+        url(/Font/a5421f5aa8dda33abf9b56a9366cab4e.ttf) format('truetype'),
+        /* Safari, Android, iOS */
+        url(/Font/a5421f5aa8dda33abf9b56a9366cab4e.svg) format('svg');
+    /* Legacy iOS */
 }
 
 @import url(//db.onlinewebfonts.com/c/4982218213f6f309d9b5e6218dd7d853?family=LIBRARY+3+AM);
 
-body{
- background-color: #F2F2F2;
- font-family: 'Noto Sans';
+.index {
+    background-color: #e9ecef;
+}
+
+body {
+    background-color: #e9ecef;
+    font-family: 'Noto Sans';
 }
 
 /**Navagation-Menu**/
-#navbar_header{
-background-color: #34445B;
-width: 100%;
+#navbar_header {
+    background-color: #34445B;
+    width: 100%;
 }
 
 /**Nav-Links**/
-.nav-item, .nav-link {
- color: #F2F2F2;
- list-style: none;
- font-family: 'LIBRARY 3 AM';
- font-size: 1.6rem;
- font-weight: bold;
- transition: 0.3s;
- display: inline-block;
+.nav-item,
+.nav-link {
+    color: #F2F2F2;
+    list-style: none;
+    font-family: 'LIBRARY 3 AM';
+    font-size: 1.6rem;
+    font-weight: bold;
+    transition: 0.3s;
+    display: inline-block;
 
 }
 
 /**Navbar Brand**/
-.navbar .navbar-brand{
-margin-bottom: 20px;
-width: 200px;
-font-family: 'LIBRARY 3 AM';
-height: 100px;
+.navbar .navbar-brand {
+    margin-bottom: 20px;
+    width: 200px;
+    font-family: 'LIBRARY 3 AM';
+    height: 100px;
 }
 
-.navbar-brand{
-  height: 300px;
-  padding-left: 20px;
-  
+.navbar-brand {
+    height: 300px;
+    padding-left: 20px;
+
 }
 
 
 /**Toggle Button**/
-#hamburger-menu{
+#hamburger-menu {
     position: absolute;
     right: 0;
-    top:0;
+    top: 0;
     margin-top: 17px;
     transition: 0.3s;
 }
 
 /**Icons**/
-.fa-bars, .fa-times, .fa-shopping-cart, .fa-user-circle {
-    font-size: 1.4rem;
-    color: #F2F2F2;  
-    cursor: pointer; 
+.fa-bars,
+.fa-times,
+.fa-shopping-cart,
+.fa-user-circle {
+    font-size: 1.6rem;
+    color: #F2F2F2;
+    cursor: pointer;
 }
+
 /**Icon Hover Effect**/
-.fa-shopping-cart:hover, 
-.fa-user-circle:hover{
+.fa-shopping-cart:hover,
+.fa-user-circle:hover {
     color: #B0D1ED;
 }
-.nav-link:hover{
+
+.nav-link:hover {
     color: #B0D1ED;
 }
 
 /**Hamburger-Menu Transition**/
-#hamburger-menu .fa-times{
+#hamburger-menu .fa-times {
     display: none;
 }
 
-#hamburger-menu .fa-times.open{
+#hamburger-menu .fa-times.open {
     display: block;
 }
 
-#hamburger-menu .fa-bars.open{
+#hamburger-menu .fa-bars.open {
     display: none;
 }
 
 /**Jumbotron**/
-.jumbotron{
+.jumbotron {
     background-image: url(/Images/wave.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #F2F2F2;
 }
 
 #main-headline {
@@ -98,27 +112,27 @@ height: 100px;
     max-width: 800px;
     min-width: 500px;
     font-family: 'LIBRARY 3 AM';
-    font-size: 4rem; 
-    font-weight: bold; 
+    font-size: 4rem;
+    font-weight: bold;
     right: 0;
     margin-left: 30px;
     text-shadow: #F2F2F2 1px 1px 1px;
 }
 
-.small-headline{
+.small-headline {
     font-family: 'LIBRARY 3 AM';
-    font-size: 2.5rem; 
+    font-size: 2.5rem;
     font-weight: bold;
     max-width: 300px;
     position: absolute;
     right: 5%;
 }
 
-#main-lead-btn{
+#main-lead-btn {
     font-family: 'Noto Sans', sans-serif;
-    color:  #F2F2F2;
+    color: #F2F2F2;
     background-color: #34445B;
-    border:#F2F2F2 solid 5px;
+    border: #F2F2F2 solid 5px;
     border-radius: 50px;
     width: 155px;
     height: 3.5rem;
@@ -126,27 +140,27 @@ height: 100px;
     font-size: 20px;
     text-transform: uppercase;
     position: absolute;
-    bottom:-20px;
+    bottom: -20px;
     margin-left: 300px;
-    box-shadow: 0px 17px 10px -10px rgba(0,0,0,0.4);
+    box-shadow: 0px 17px 10px -10px rgba(0, 0, 0, 0.4);
     cursor: pointer;
     transition: all ease-in-out 300ms;
 }
 
 #main-lead-btn:hover,
 #card_btn:hover {
-    box-shadow: 0px 37px 20px -15px rgba(0,0,0,0.2);
+    box-shadow: 0px 37px 20px -15px rgba(0, 0, 0, 0.2);
     transform: translate(0px, -10px);
 }
 
 
-.display-2{
+.display-2 {
     font-family: 'LIBRARY 3 AM'
-    font-size: 2.5rem; 
-    font-weight: bold; 
+        font-size: 2.5rem;
+    font-weight: bold;
 }
 
-#join_btn{
+#join_btn {
     color: #F2F2F2;
     background-color: #34445B;
     border: #F2F2F2 solid 5px;
@@ -156,11 +170,11 @@ height: 100px;
     height: 3rem;
 }
 
-#small-btn{
+#small-btn {
     font-family: 'Noto Sans', sans-serif;
     color: #B0D1ED;
     background-color: #34445B;
-    border: #F2F2F2  solid 5px;
+    border: #F2F2F2 solid 5px;
     border-radius: 50px;
     width: 155px;
     height: 3.5rem;
@@ -171,24 +185,24 @@ height: 100px;
 }
 
 /**Price Card Section**/
-.rates{
+.rates {
     color: #34445B;
     font-family: 'LIBRARY 3 AM';
     font-weight: bold;
     text-shadow: #F2F2F2 1px 1px 1px;
-    font-size: 4rem; 
+    font-size: 4rem;
 }
 
-.card{
+.card {
     max-width: 24rem;
     min-width: 24rem;
     height: 28rem;
 }
 
 
-.card-header{
+.card-header {
     font-family: 'LIBRARY 3 AM';
-    background-color: #34445B; 
+    background-color: #34445B;
     color: #F2F2F2;
     font-weight: bold;
     height: 100px;
@@ -198,7 +212,7 @@ height: 100px;
     text-shadow: black 1px 1px 1px;
 }
 
-.card-body{
+.card-body {
     font-family: 'Noto Sans', sans-serif;
     text-transform: uppercase;
 }
@@ -210,8 +224,9 @@ height: 100px;
 
 }
 
-#card_btn{
-    color: #34445B;;
+#card_btn {
+    color: #34445B;
+    ;
     background-color: #B0D1ED;
     border: #34445B solid 5px;
     border-radius: 25px;
@@ -221,92 +236,97 @@ height: 100px;
     font-family: 'Noto Sans', sans-serif;
     font-weight: bold;
     font-size: 1rem;
-    box-shadow: 0px 17px 10px -10px rgba(0,0,0,0.4);
+    box-shadow: 0px 17px 10px -10px rgba(0, 0, 0, 0.4);
     cursor: pointer;
     transition: all ease-in-out 300ms;
 }
 
-.prices{
+.prices {
     font-family: 'LIBRARY 3 AM';
-    color: #34445B; 
+    color: #34445B;
     font-size: 1.6rem;
     font-weight: bold;
 }
 
 /**Footer**/
-footer{
+footer {
     position: relative;
 }
+
 .page-footer {
     margin-top: 100px;
     font-family: 'Noto Sans', sans-serif;
     position: absolute;
     left: 0;
     right: 0;
-    background-color:#34445B;
-    color: #F2F2F2; 
+    background-color: #34445B;
+    color: #F2F2F2;
 }
 
-.first-btn{
+.first-btn {
     position: absolute;
-    margin-left: 500px;   
+    margin-left: 500px;
     margin-top: 110px;
 }
 
 
-.btn-newsletter{
-    color: #34445B;   
+.btn-newsletter {
+    color: #34445B;
     background-color: #B0D1ED;
     font-family: 'Noto Sans', sans-serif;
-    border: solid #F2F2F2; 2px;
+    border: solid #F2F2F2;
+    2px;
     border-radius: 45px;
 }
 
-.footer-weblink{
-    color: #F2F2F2;  
-    
+.footer-weblink {
+    color: #F2F2F2;
+
 }
 
-.fa-phone-volume, .fa-clock, .fa-map-marked-alt{
- color: #B0D1ED;  
- font-size: 1.8rem;
- text-shadow: #B0D1ED 1px 1px 2px;
- display: inline-block;
- 
-  
+.fa-phone-volume,
+.fa-clock,
+.fa-map-marked-alt {
+    color: #B0D1ED;
+    font-size: 1.8rem;
+    text-shadow: #B0D1ED 1px 1px 2px;
+    display: inline-block;
+
+
 }
 
 /**Modal**/
-.modal-header{
+.modal-header {
     background-color: #B0D1ED;
     font-family: 'LIBRARY 3 AM';
     font-weight: bold;
     font-size: 1.8rem;
 }
-.modal-title{
-    font-size: 1.8rem;  
+
+.modal-title {
+    font-size: 1.8rem;
 }
 
-.btn-login{
-    font-family: 'LIBRARY 3 AM' 
-    font-size: 1.8rem;
+.btn-login {
+    font-family: 'LIBRARY 3 AM'
+        font-size: 1.8rem;
     color: #F2F2F2;
     font-weight: bold;
 }
 
-.label{
-  color: #34445B;
-  font-family: 'Noto Sans', sans-serif;
+.label {
+    color: #34445B;
+    font-family: 'Noto Sans', sans-serif;
 }
 
-.createAccount-header{
+.createAccount-header {
     font-family: 'LIBRARY 3 AM'
-    font-weight: bold;
-    font-size: 1.8rem; 
+        font-weight: bold;
+    font-size: 1.8rem;
     color: #34445B;
 }
 
-.btn_login{
+.btn_login {
     color: #F2F2F2;
     background-color: #34445B;
     border: #B0D1ED solid 5px;
@@ -316,18 +336,19 @@ footer{
     height: 3rem;
 }
 
-#modalLoginForm{
+#modalLoginForm {
     font-family: 'Noto Sans';
     text-transform: uppercase;
 }
 
-.fa-envelope-square, .fa-user{
+.fa-envelope-square,
+.fa-user {
     font-size: 1.4rem;
-    color: #34445B; 
+    color: #34445B;
 }
 
 /**Our Facility**/
-.carousel_paragraph_container{
+.carousel_paragraph_container {
     background-color: #34445B;
     font-size: 1rem;
     color: #F2F2F2;
@@ -340,12 +361,12 @@ footer{
     padding: 350px, 50px 0 50px;
 }
 
-#carousel-example-2{
-  max-width: 1200px;
-  max-height: 700px;
-} 
+#carousel-example-2 {
+    max-width: 1200px;
+    max-height: 700px;
+}
 
-.carousel_paragraph{
+.carousel_paragraph {
     max-width: 1000px;
     margin-top: 115px;
 }
@@ -354,19 +375,19 @@ footer{
     width: 10px;
     height: 10px;
     border-radius: 100%;
-  }
+}
 
-  /**Amenities**/
-  .amenities_header{
+/**Amenities**/
+.amenities_header {
     color: #34445B;
     font-family: 'LIBRARY 3 AM';
     font-weight: bold;
     text-shadow: #F2F2F2 1px 1px 1px;
     color: #34445B;
-    font-size: 3rem;   
-  }
+    font-size: 3rem;
+}
 
-.secondary_header{
+.secondary_header {
     color: #34445B;
     font-family: 'LIBRARY 3 AM'
     font-weight: bold;
@@ -375,108 +396,113 @@ footer{
     font-family: 'LIBRARY 3 AM';
     font-weight: bold;
     text-shadow: #F2F2F2 1px 1px 1px;
-    font-size: 1.3rem;    
-  }
+    font-size: 1.3rem;
+}
 
-.amenities{
-    color: #34445B;  
-  }
+.amenities {
+    color: #34445B;
+}
+
 .pt-Header {
-  padding: 90px 0;
+    padding: 90px 0;
 }
 
-.boxingstudio{
+.boxingstudio {
     margin-bottom: 25px;
 }
 
-.indoorpool{
+.indoorpool {
     margin-bottom: 25px;
 }
 
-.basketballcourt{
+.basketballcourt {
     margin-bottom: 25px;
 }
-  /**Personal Trainer Section**/
-#Personal_Trainer-Row{
-      margin-top: 150px;
-  }
 
-.personalTrainers{
-     max-width: 1000px; 
-  }
+/**Personal Trainer Section**/
+#Personal_Trainer-Row {
+    margin-top: 150px;
+}
 
-  #Personal_Trainer-1, #Personal_Trainer-3, #Personal_Trainer-5{
+.personalTrainers {
+    max-width: 1000px;
+}
+
+#Personal_Trainer-1,
+#Personal_Trainer-3,
+#Personal_Trainer-5 {
     margin-left: -190px;
-  }
+}
 
-  .ptname{
-      color: #34445B;
-      font-family: 'LIBRARY 3 AM';
-      font-weight: bold;
-      font-size: 3rem;
-      text-shadow: #F2F2F2 1px 1px 1px;
-      margin-bottom: 80px;
-      margin-top: 20px
-  }
-  .instructorsSection{
+.ptname {
+    color: #34445B;
+    font-family: 'LIBRARY 3 AM';
+    font-weight: bold;
+    font-size: 3rem;
+    text-shadow: #F2F2F2 1px 1px 1px;
+    margin-bottom: 80px;
+    margin-top: 20px
+}
+
+.instructorsSection {
     min-height: 600px;
-    max-height: 2200px;
+    max-height: 2500px;
     width: 100%;
     background-color: #34445B;
     margin-top: 200px;
     margin-bottom: 300px;
 }
 
-.instructorHeading{
-  padding-top: 50px;
-  font-family: 'LIBRARY 3 AM';
-  font-size: 3.2rem; 
-  font-weight: bold; 
-  color: #F2F2F2;
-}
-
-.instructorname{
-    position: absolute;
-    padding-top: 170px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-70%, -50%);
+.instructorHeading {
+    padding-top: 50px;
     font-family: 'LIBRARY 3 AM';
+    font-size: 3.2rem;
     font-weight: bold;
-    font-size: 1.6rem;
     color: #F2F2F2;
 }
-
-.instructordescrip{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-70%, -50%);
-    padding-bottom: 160px;
-    color: #F2F2F2;
-    margin-left: 20px;
+.instructoritem{
+    padding-bottom: 60px;
+}
+.instructorname {
+    color: #F2F2F2; 
 }
 
-  .workoutContainer {
+.instructordescrip {
+    color: #F2F2F2;   
+
+}
+#instructorlink{
+    font-size: 1.2rem;
+    display: block;
+    cursor: pointer;
+}
+
+#instructorlink:hover {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+/**Store**/
+.workoutContainer {
     position: relative;
     width: auto;
-  }
-  
-  .workoutPic {
+}
+
+.workoutPic {
     display: block;
     min-width: 550px;
     margin-bottom: 400px;
     min-height: 550px;
-  }
+}
 
-  .supplements {
+.supplements {
     display: block;
     min-width: 550px;
     margin-bottom: 200px;
     min-height: 550px;
-  }
-  
-  .overlay {
+}
+
+.overlay {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -487,16 +513,15 @@ footer{
     opacity: 0;
     transition: .3s ease;
     background-color: rgba(52, 68, 91, .7)
-    
-  }
-  
-  .workoutContainer:hover .overlay {
+}
+
+.workoutContainer:hover .overlay {
     opacity: 1;
-  }
-  
-  .workoutText {
-    font-family: 'LIBRARY 3 AM'; 
-    font-weight: bold; 
+}
+
+.workoutText {
+    font-family: 'LIBRARY 3 AM';
+    font-weight: bold;
     color: #F2F2F2;
     font-size: 2rem;
     position: absolute;
@@ -504,101 +529,119 @@ footer{
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-  }
-  .shopNavbar{
-   border: solid #34445B ;
-   background-color: #B0D1ED;   
-  }
-  .shopLinks{
-    font-weight: bold; 
+}
+
+.shopNavbar {
+    border: solid #34445B;
+    background-color: #B0D1ED;
+}
+
+.shopLinks {
+    font-weight: bold;
     color: #34445B;
     font-size: 1.2rem;
     margin: 15px 20px;
     font-family: 'Noto Sans', sans-serif;
     text-transform: uppercase;
     text-decoration: none;
-  }
+}
 
-  .shopHeader{
+.shopHeader {
     position: absolute;
     top: 50%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
     color: #F2F2F2;
-    text-shadow: #F2F2F2; 1px 1px 2px;
-    }
+    text-shadow: #F2F2F2;
+    1px 1px 2px;
+}
 
-    .accordion{
-    background-color:#B0D1ED;   
-    }
+.accordion {
+    background-color: #B0D1ED;
+}
 
-    #accordionLink{
-        height: 90px;
-        color: #34445B;
-        font-family: 'LIBRARY 3 AM';
-        font-weight: bold;
-        text-shadow: #F2F2F2 1px 1px 1px;
-        font-size: 2.3rem;
-        text-decoration: none;
-    }
+#accordionLink {
+    height: 90px;
+    color: #34445B;
+    font-family: 'LIBRARY 3 AM';
+    font-weight: bold;
+    text-shadow: #F2F2F2 1px 1px 1px;
+    font-size: 2.3rem;
+    text-decoration: none;
+}
 
-    .shoppingContent{
-        margin-top: 300px;
-    }
+.shoppingContent {
+    margin-top: 300px;
+}
 
-    .shopHeadings {
-        color: #34445B;
-        font-weight: bold;
-        text-shadow: #F2F2F2 1px 1px 1px;
-        text-decoration: none;
-        list-style: none;
-        text-transform: uppercase;
-        font-family: 'LIBRARY 3 AM';
-        font-size: 4rem; 
-    }
+.shopHeadings {
+    color: #34445B;
+    font-weight: bold;
+    text-shadow: #F2F2F2 1px 1px 1px;
+    text-decoration: none;
+    list-style: none;
+    text-transform: uppercase;
+    font-family: 'LIBRARY 3 AM';
+    font-size: 4rem;
+}
 
-    .jumbotron-store{
-        background-image: url(/Images/store_jumbotron.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        position: relative;
-        height: 500px;
-    }
+.jumbotron-store {
+    background-image: url(/Images/store_jumbotron.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    height: 500px;
+}
 
-    .block1{
-        background-color: #B0D1ED;
-        max-height: 700px;
-    }
+.block1 {
+    background-color: #B0D1ED;
+    max-height: 700px;
+}
 
-    .accessoriesheader{
-        color: #34445B;
-        font-weight: bold;
-        text-shadow: #F2F2F2 1px 1px 1px;
-        text-decoration: none;
-        list-style: none;
-        text-transform: uppercase;
-        font-family: 'Library3AM';
-        font-size: 4rem;   
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%);
-        text-align: center;
+.accessoriesheader {
+    color: #34445B;
+    font-weight: bold;
+    text-shadow: #F2F2F2 1px 1px 1px;
+    text-decoration: none;
+    list-style: none;
+    text-transform: uppercase;
+    font-family: 'Library3AM';
+    font-size: 4rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
 
-    
+.btn-outline {
+    border: solid #34445B;
 
-    }
+}
 
+.smshopHeadings {
+    color: #34445B; 
+    font-family: 'LIBRARY 3 AM';
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 20px 0 175px;
+    text-decoration: none;
+}
 
+.supplementHeadings{
+    color: #34445B; 
+    font-family: 'LIBRARY 3 AM';
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 20px;
+    text-decoration: none;
+}
 
-
-
-    .btn-outline{
-        border: solid #34445B;
-       
-    }
-
-
+/**Store Links Effect**/
+.supplementHeadings,
+.smshopHeadings:hover {
+    color: #B0D1ED;
+}
